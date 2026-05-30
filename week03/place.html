@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Salt Lake Temple | Utah</title>
+
+    <meta name="description" content="Information about the Salt Lake Temple in Salt Lake City, Utah.">
+    <meta name="author" content="Lincon">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Salt Lake Temple</h1>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <picture>
+            <source
+                media="(min-width: 768px)"
+                srcset="images/salt-lake-large.webp">
+
+            <img
+                src="images/salt-lake-small.webp"
+                alt="Salt Lake Temple in Salt Lake City, Utah">
+        </picture>
+
+        <section class="data-card">
+            <h2>Data</h2>
+
+            <div class="content">
+                <p><strong>Location:</strong> Salt Lake City</p>
+                <p><strong>State:</strong> Utah</p>
+                <p><strong>Country:</strong> United States</p>
+                <p><strong>Dedicated:</strong> April 6, 1893</p>
+                <p><strong>Architect:</strong> Truman O. Angell</p>
+                <p><strong>Area:</strong> Temple Square</p>
+                <p><strong>Religion:</strong> LDS Church</p>
+            </div>
+        </section>
+
+        <section class="weather-card">
+
+            <h2>Weather</h2>
+
+            <img
+                src="images/weather.svg"
+                alt=""
+                aria-hidden="true"
+                class="weather-icon">
+
+            <div class="content">
+                <p><strong>Temperature:</strong> 8 °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> 10 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+            </div>
+
+        </section>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="currentyear"></span> Lincon • Salt Lake Temple</p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
